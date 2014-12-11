@@ -9,12 +9,14 @@ local function get_table(t)
             res = t[i]
         end
     end
-    return res,
+    return res
 end
 
 
 local function main()
-    for i=1,3 do
+    fail = 0
+    total = 300
+    for i=1,total  do
         local t = { [1] = "0", [2] = "0", [3] = "0",}
         --get randomly  BONUS
         i = math.random(1,3)
@@ -34,8 +36,16 @@ local function main()
         end
         t[i] = "-"
         print(get_table(t))
+
+        -- static..
+        for j=1,#t do
+            if t[j] == '1' then
+                fail = fail + 1
+            end
+        end
         print("===========")
     end
+    print("total: "..total..",Success: " .. total-fail.." Fail:"..fail)
 end
 
 main()
