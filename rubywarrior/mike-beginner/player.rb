@@ -14,21 +14,27 @@ class Player
         @ratio = recover_ration
         @slundge = Slundge.new(24,3)
         @health_cur = @health_s
-        # w-3n > y - 5n
-        @need_health = @slundge.health - (@damage_p - @slundge.damage_p)
+        # w:(Warrior)  wdm:(Warrior's damage point)
+        # s:(Slundge) sdm: (Slundge's damage point)
+        # 1. w - sdm*n > s-wdm*n  ==> w > s - (wdm-sdm)*n
+        # 2. n = ceil(y/wdm)
+        # 1 and 2 => w > s - (wdm-sdm)*ceil(s/wdm)
+        @need_health = @slundge.health - (@damage_p - @slundge.damage_p) * (@slundge.health/@damage_p).ceil
 
         if(@need_health > @health_s)
             @need_health = @health_s
         end
     end
 
-    def be_damage?(warrior)
+    def hurt?(warrior)
+        p "#{warrior.health}  vs #{@health_cur}"
         warrior.health < @health_cur
     end
 
     def have_a_rest?(warrior)
-        if !be_damage?(warrior)  and (warrior.health < @need_health)
+        if !hurt?(warrior) && (warrior.health < @need_health)
             warrior.rest!
+            p "oooooooooooo^_^ooooooooo REST......"
             @health_cur = warrior.health
             true
         end
@@ -42,7 +48,9 @@ class Player
             end
         else
             warrior.attack!
+            p ">>>>>>>>>>>>>>Kill it!!"
         end
+        @health_cur = warrior.health
     end
 
 end
