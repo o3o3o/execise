@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://purl.org/rss/1.0/" xmlns:slash="http://purl.org/rss/1.0/modules/slash/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:taxo="http://purl.org/rss/1.0/modules/taxonomy/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:syn="http://purl.org/rss/1.0/modules/syndication/" xmlns:admin="http://webns.net/mvcb/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0">
+
+<channel rdf:about="http://slashdot.org/">
+<title>Slashdot</title>
+<link>http://slashdot.org/</link>
+<description>News for nerds, stuff that matters</description>
+<dc:language>en-us</dc:language>
+<dc:rights>Copyright 1997-2015, Dice. All Rights Reserved. Slashdot is a Dice Holdings, Inc. service</dc:rights>
+<dc:date>2015-04-19T02:59:09+00:00</dc:date>
+<dc:publisher>Dice</dc:publisher>
+<dc:creator>help@slashdot.org</dc:creator>
+<dc:subject>Technology</dc:subject>
+<syn:updateBase>1970-01-01T00:00+00:00</syn:updateBase>
+<syn:updateFrequency>1</syn:updateFrequency>
+<syn:updatePeriod>hourly</syn:updatePeriod>
+<items>
+ <rdf:Seq>
+  <rdf:li rdf:resource="http://yro.slashdot.org/story/15/04/19/0021228/joseph-goebbels-estate-sues-publisher-over-diary-excerpt-royalties?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="http://yro.slashdot.org/story/15/04/18/2243217/doj-could-nix-comcast-time-warner-merger?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="http://tech.slashdot.org/story/15/04/18/2036239/norway-will-switch-off-fm-radio-in-2017?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="http://search.slashdot.org/story/15/04/18/2032227/ask-slashdot-what-features-would-you-like-in-a-search-engine?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="http://yro.slashdot.org/story/15/04/18/1939257/the-upsides-of-a-surveillance-society?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="http://tech.slashdot.org/story/15/04/18/1820205/dutch-prosecutors-launch-criminal-investigation-against-uber-for-flouting-ban?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="http://science.slashdot.org/story/15/04/18/1730215/resistance-to-antibiotics-found-in-isolated-amazonian-tribe?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="http://science.slashdot.org/story/15/04/18/1623207/rocket-lab-unveils-electric-rocket-engine?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="http://science.slashdot.org/story/15/04/18/1521222/can-high-intelligence-be-a-burden-rather-than-a-boon?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="http://hardware.slashdot.org/story/15/04/18/137245/kingston-hyperx-predator-ssd-takes-gumstick-m2-pcie-drives-to-14gbsec?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="http://yro.slashdot.org/story/15/04/18/1252224/hacked-sony-emails-reveal-that-sony-had-pirated-books-about-hacking?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="http://yro.slashdot.org/story/15/04/18/0633204/twitter-moves-non-us-accounts-to-ireland-and-away-from-the-nsa?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="http://tech.slashdot.org/story/15/04/18/0219235/google-ready-to-unleash-thousands-of-balloons-in-project-loon?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="http://science.slashdot.org/story/15/04/18/0224250/the-origin-of-the-first-light-in-the-universe?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+  <rdf:li rdf:resource="http://hardware.slashdot.org/story/15/04/18/0217200/google-adds-handwriting-input-to-android?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed" />
+ </rdf:Seq>
+</items>
+<image rdf:resource="http://a.fsdn.com/sd/topics/topicslashdot.gif" />
+<textinput rdf:resource="http://slashdot.org/search.pl" />
+<atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rdf+xml" href="http://rss.slashdot.org/Slashdot/slashdot" /><feedburner:info uri="slashdot/slashdot" /><atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" /></channel>
+<image rdf:about="http://a.fsdn.com/sd/topics/topicslashdot.gif">
+<title>Slashdot</title>
+<url>http://a.fsdn.com/sd/topics/topicslashdot.gif</url>
+<link>http://slashdot.org/</link>
+</image>
+<item rdf:about="http://yro.slashdot.org/story/15/04/19/0021228/joseph-goebbels-estate-sues-publisher-over-diary-excerpt-royalties?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Joseph Goebbels' Estate Sues Publisher Over Diary Excerpt Royalties</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/yw85r38WEak/joseph-goebbels-estate-sues-publisher-over-diary-excerpt-royalties</link>
+<description>wabrandsma writes with this from The Guardian: The estate of Joseph Goebbels, Adolf Hitler's minister of propaganda, is taking legal action against the publisher Random House over a new biography, claiming payment for the use of extracts from his diaries. Peter Longerich's biography of Goebbels is to be published in May (Random House/ Siedler). Longerich, who is the professor at Royal Holloway's Holocaust Research Centre, maintains this case has important censorship implications. 'If you accept that a private person controls the rights to Goebbels' diaries, then &amp;ndash; theoretically &amp;ndash; you give this person the right to control research,' he said.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Joseph+Goebbels'+Estate+Sues+Publisher+Over+Diary+Excerpt+Royalties%3A+http%3A%2F%2Fbit.ly%2F1cIVgJL"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fyro.slashdot.org%2Fstory%2F15%2F04%2F19%2F0021228%2Fjoseph-goebbels-estate-sues-publisher-over-diary-excerpt-royalties%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=http://yro.slashdot.org/story/15/04/19/0021228/joseph-goebbels-estate-sues-publisher-over-diary-excerpt-royalties?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;                                                                                                                                                                              
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://yro.slashdot.org/story/15/04/19/0021228/joseph-goebbels-estate-sues-publisher-over-diary-excerpt-royalties?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=7280531&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/yw85r38WEak" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>timothy</dc:creator>
+<dc:date>2015-04-19T00:23:00+00:00</dc:date>
+<dc:subject>censorship</dc:subject>
+<slash:department>new-meaning-for-moral-rights</slash:department>
+<slash:section>yro</slash:section>
+<slash:comments>73</slash:comments>
+<slash:hit_parade>73,73,59,38,6,3,2</slash:hit_parade>
+<feedburner:origLink>http://yro.slashdot.org/story/15/04/19/0021228/joseph-goebbels-estate-sues-publisher-over-diary-excerpt-royalties?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="http://yro.slashdot.org/story/15/04/18/2243217/doj-could-nix-comcast-time-warner-merger?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>DOJ Could Nix Comcast-Time Warner Merger</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/xHE4TpRPNz0/doj-could-nix-comcast-time-warner-merger</link>
+<description>jriding (1076733) writes The Comcast-Time Warner Cable merger has been in the works for so long, it's starting to feel like the impending monopolistic telecom Frankenbaby was inevitable. But the Justice Department may kibosh the deal for violating antitrust laws, according to a report from Bloomberg.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=DOJ+Could+Nix+Comcast-Time+Warner+Merger%3A+http%3A%2F%2Fbit.ly%2F1zuYGou"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fyro.slashdot.org%2Fstory%2F15%2F04%2F18%2F2243217%2Fdoj-could-nix-comcast-time-warner-merger%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=http://yro.slashdot.org/story/15/04/18/2243217/doj-could-nix-comcast-time-warner-merger?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;                                                                                                                                                                              
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://yro.slashdot.org/story/15/04/18/2243217/doj-could-nix-comcast-time-warner-merger?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=7280461&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/xHE4TpRPNz0" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>timothy</dc:creator>
+<dc:date>2015-04-18T22:42:00+00:00</dc:date>
+<dc:subject>business</dc:subject>
+<slash:department>they-have-a-monopoly-on-that</slash:department>
+<slash:section>yro</slash:section>
+<slash:comments>56</slash:comments>
+<slash:hit_parade>56,55,27,20,7,3,2</slash:hit_parade>
+<feedburner:origLink>http://yro.slashdot.org/story/15/04/18/2243217/doj-could-nix-comcast-time-warner-merger?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="http://tech.slashdot.org/story/15/04/18/2036239/norway-will-switch-off-fm-radio-in-2017?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Norway Will Switch Off FM Radio In 2017</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/DJG5i4a78kk/norway-will-switch-off-fm-radio-in-2017</link>
+<description>New submitter titten writes The Norwegian Ministry of Culture has announced that the transition to DAB will be completed in 2017. This means that Norway, as the first country in the world to do so, has decided to switch off the FM network. Norway began the transition to DAB in 1995. In recent years two national and several local DAB-networks has been established. 56 per cent of radio listeners use digital radio every day. 55 per cent of households have at least one DAB radio, according to Digitalradio survey by TNS Gallup, continuously measuring the Norwegian`s digital radio habits.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Norway+Will+Switch+Off+FM+Radio+In+2017%3A+http%3A%2F%2Fbit.ly%2F1b8OtYI"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Ftech.slashdot.org%2Fstory%2F15%2F04%2F18%2F2036239%2Fnorway-will-switch-off-fm-radio-in-2017%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=http://tech.slashdot.org/story/15/04/18/2036239/norway-will-switch-off-fm-radio-in-2017?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;                                                                                                                                                                              
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://tech.slashdot.org/story/15/04/18/2036239/norway-will-switch-off-fm-radio-in-2017?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=7280375&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/DJG5i4a78kk" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>timothy</dc:creator>
+<dc:date>2015-04-18T21:25:00+00:00</dc:date>
+<dc:subject>communications</dc:subject>
+<slash:department>video-sought-by-police-for-questioning</slash:department>
+<slash:section>technology</slash:section>
+<slash:comments>95</slash:comments>
+<slash:hit_parade>95,86,63,54,24,9,7</slash:hit_parade>
+<feedburner:origLink>http://tech.slashdot.org/story/15/04/18/2036239/norway-will-switch-off-fm-radio-in-2017?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="http://search.slashdot.org/story/15/04/18/2032227/ask-slashdot-what-features-would-you-like-in-a-search-engine?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Ask Slashdot: What Features Would You Like In a Search Engine?</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/bnn8tQro-Vs/ask-slashdot-what-features-would-you-like-in-a-search-engine</link>
+<description>New submitter nicolas.slusarenko writes Nowadays, there is one dominant search engine in the world among few alternatives. I have the impression that the majority of users think that it is the best possible service that could be made. I am sure that we could have a better search engine. During my spare time I been developing Trokam, an online search engine. I am building this service with the features that I would like to find in a service: respectful of user rights, ad-free, built upon open source software, and with auditable results. Well, those are mine. What features would you like in a search engine?&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Ask+Slashdot%3A+What+Features+Would+You+Like+In+a+Search+Engine%3F%3A+http%3A%2F%2Fbit.ly%2F1yEI961"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fsearch.slashdot.org%2Fstory%2F15%2F04%2F18%2F2032227%2Fask-slashdot-what-features-would-you-like-in-a-search-engine%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=http://search.slashdot.org/story/15/04/18/2032227/ask-slashdot-what-features-would-you-like-in-a-search-engine?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;                                                                                                                                                                              
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://search.slashdot.org/story/15/04/18/2032227/ask-slashdot-what-features-would-you-like-in-a-search-engine?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=7280369&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/bnn8tQro-Vs" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>timothy</dc:creator>
+<dc:date>2015-04-18T20:32:00+00:00</dc:date>
+<dc:subject>internet</dc:subject>
+<slash:department>esp-heads-the-list</slash:department>
+<slash:section>search</slash:section>
+<slash:comments>155</slash:comments>
+<slash:hit_parade>155,155,103,88,22,8,4</slash:hit_parade>
+<feedburner:origLink>http://search.slashdot.org/story/15/04/18/2032227/ask-slashdot-what-features-would-you-like-in-a-search-engine?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="http://yro.slashdot.org/story/15/04/18/1939257/the-upsides-of-a-surveillance-society?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>The Upsides of a Surveillance Society</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/pzXbyGdlawY/the-upsides-of-a-surveillance-society</link>
+<description>theodp writes Citing the comeuppance of ESPN reporter Britt McHenry, who was suspended from her job after her filmed ad-hominem attack on a person McHenry deemed to be beneath her in terms of appearance, education, wealth, class, status went viral, The Atlantic's Megan Garber writes that one silver lining of the omnipresence of cameras it that the possibility of exposure can also encourage us to be a little kinder to each other. "Terrible behavior," Garber writes, "whether cruel or violent or something in between, has a greater possibility than it ever has before of being exposed. Just as Uber tracks ratings for both its drivers and its users, and just as Yelp can be a source of shaming for businesses and customers alike, technology at large has afforded a reciprocity between people who, in a previous era, would have occupied different places on the spectrum of power. Which can, again, be a bad thing &amp;mdash; but which can also, in McHenry's case, be an extremely beneficial one. It's good that her behavior has been exposed. It's good that her story going viral might discourage similar behavior from other people. It's good that she has publicly promised 'to learn from this mistake.'"&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=The+Upsides+of+a+Surveillance+Society%3A+http%3A%2F%2Fbit.ly%2F1G4YL6V"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fyro.slashdot.org%2Fstory%2F15%2F04%2F18%2F1939257%2Fthe-upsides-of-a-surveillance-society%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=http://yro.slashdot.org/story/15/04/18/1939257/the-upsides-of-a-surveillance-society?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;                                                                                                                                                                              
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://yro.slashdot.org/story/15/04/18/1939257/the-upsides-of-a-surveillance-society?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=7280277&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/pzXbyGdlawY" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>timothy</dc:creator>
+<dc:date>2015-04-18T19:27:00+00:00</dc:date>
+<dc:subject>privacy</dc:subject>
+<slash:department>you-mean-it's-not-all-upside?</slash:department>
+<slash:section>yro</slash:section>
+<slash:comments>127</slash:comments>
+<slash:hit_parade>127,122,72,61,17,6,2</slash:hit_parade>
+<feedburner:origLink>http://yro.slashdot.org/story/15/04/18/1939257/the-upsides-of-a-surveillance-society?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="http://tech.slashdot.org/story/15/04/18/1820205/dutch-prosecutors-launch-criminal-investigation-against-uber-for-flouting-ban?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Dutch Prosecutors Launch Criminal Investigation Against Uber For Flouting Ban</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/0lpNKTvrFJo/dutch-prosecutors-launch-criminal-investigation-against-uber-for-flouting-ban</link>
+<description>An anonymous reader writes Dutch prosecutors have announced that they are prosecuting taxi-hailing giant Uber for continuing to disregard last December's ban on the company offering its unlicensed UberPOP service in the Netherlands. The statement declares 'The company Uber is now a suspect...This means a preliminary examination will be started to collect evidence that Uber is providing illegal transportation on a commercial basis,'. Dutch police presented evidence to the prosecutors of UberPOP drivers in Amsterdam ignoring the ban, and at the time of writing the UberPOP service is still available via Uber's Amsterdam website [https://www.uber.com/cities/amsterdam]. Though Uber inspires new litigation on a weekly basis in the territories in which it is seeking to consolidate its services, this is the first time it has been the subject of a criminal prosecution.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Dutch+Prosecutors+Launch+Criminal+Investigation+Against+Uber+For+Flouting+Ban%3A+http%3A%2F%2Fbit.ly%2F1G4JQdc"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Ftech.slashdot.org%2Fstory%2F15%2F04%2F18%2F1820205%2Fdutch-prosecutors-launch-criminal-investigation-against-uber-for-flouting-ban%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=http://tech.slashdot.org/story/15/04/18/1820205/dutch-prosecutors-launch-criminal-investigation-against-uber-for-flouting-ban?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;                                                                                                                                                                              
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://tech.slashdot.org/story/15/04/18/1820205/dutch-prosecutors-launch-criminal-investigation-against-uber-for-flouting-ban?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=7280145&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/0lpNKTvrFJo" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>timothy</dc:creator>
+<dc:date>2015-04-18T18:25:00+00:00</dc:date>
+<dc:subject>transportation</dc:subject>
+<slash:department>red-lights-and-red-tape</slash:department>
+<slash:section>technology</slash:section>
+<slash:comments>29</slash:comments>
+<slash:hit_parade>29,28,19,15,6,3,3</slash:hit_parade>
+<feedburner:origLink>http://tech.slashdot.org/story/15/04/18/1820205/dutch-prosecutors-launch-criminal-investigation-against-uber-for-flouting-ban?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="http://science.slashdot.org/story/15/04/18/1730215/resistance-to-antibiotics-found-in-isolated-amazonian-tribe?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Resistance To Antibiotics Found In Isolated Amazonian Tribe</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/DhVexHkq8-k/resistance-to-antibiotics-found-in-isolated-amazonian-tribe</link>
+<description>sciencehabit writes When scientists first made contact with an isolated village of Yanomami hunter-gatherers in the remote mountains of the Amazon jungle of Venezuela in 2009, they marveled at the chance to study the health of people who had never been exposed to Western medicine or diets. But much to their surprise, these Yanomami's gut bacteria have already evolved a diverse array of antibiotic-resistance genes, according to a new study, even though these mountain people had never ingested antibiotics or animals raised with drugs. The find suggests that microbes have long evolved the capability to fight toxins, including antibiotics, and that preventing drug resistance may be harder than scientists thought.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Resistance+To+Antibiotics+Found+In+Isolated+Amazonian+Tribe%3A+http%3A%2F%2Fbit.ly%2F1IWlNAL"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fscience.slashdot.org%2Fstory%2F15%2F04%2F18%2F1730215%2Fresistance-to-antibiotics-found-in-isolated-amazonian-tribe%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=http://science.slashdot.org/story/15/04/18/1730215/resistance-to-antibiotics-found-in-isolated-amazonian-tribe?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;                                                                                                                                                                              
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://science.slashdot.org/story/15/04/18/1730215/resistance-to-antibiotics-found-in-isolated-amazonian-tribe?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=7280071&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/DhVexHkq8-k" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>timothy</dc:creator>
+<dc:date>2015-04-18T17:29:00+00:00</dc:date>
+<dc:subject>earth</dc:subject>
+<slash:department>strong-willed-organisms</slash:department>
+<slash:section>science</slash:section>
+<slash:comments>43</slash:comments>
+<slash:hit_parade>43,42,30,24,12,6,5</slash:hit_parade>
+<feedburner:origLink>http://science.slashdot.org/story/15/04/18/1730215/resistance-to-antibiotics-found-in-isolated-amazonian-tribe?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="http://science.slashdot.org/story/15/04/18/1623207/rocket-lab-unveils-electric-rocket-engine?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Rocket Lab Unveils "Electric" Rocket Engine</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/73X2nYJR3Ow/rocket-lab-unveils-electric-rocket-engine</link>
+<description>New submitter Adrian Harvey writes The New Zealand based commercial space company Rocket Lab has unveiled their new rocket engine which the media is describing as battery-powered. It still uses rocket fuel, of course, but has an entirely new propulsion cycle which uses electric motors to drive its turbopumps. To add to the interest over the design, it uses 3D printing for all its primary components. First launch is expected this year, with commercial operations commencing in 2016.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Rocket+Lab+Unveils+%22Electric%22+Rocket+Engine%3A+http%3A%2F%2Fbit.ly%2F1HjuBP6"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fscience.slashdot.org%2Fstory%2F15%2F04%2F18%2F1623207%2Frocket-lab-unveils-electric-rocket-engine%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=http://science.slashdot.org/story/15/04/18/1623207/rocket-lab-unveils-electric-rocket-engine?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;                                                                                                                                                                              
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://science.slashdot.org/story/15/04/18/1623207/rocket-lab-unveils-electric-rocket-engine?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=7279969&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/73X2nYJR3Ow" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>timothy</dc:creator>
+<dc:date>2015-04-18T16:22:00+00:00</dc:date>
+<dc:subject>space</dc:subject>
+<slash:department>partially-electric-is-still-cool</slash:department>
+<slash:section>science</slash:section>
+<slash:comments>50</slash:comments>
+<slash:hit_parade>50,49,38,34,12,5,2</slash:hit_parade>
+<feedburner:origLink>http://science.slashdot.org/story/15/04/18/1623207/rocket-lab-unveils-electric-rocket-engine?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="http://science.slashdot.org/story/15/04/18/1521222/can-high-intelligence-be-a-burden-rather-than-a-boon?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Can High Intelligence Be a Burden Rather Than a Boon?</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/aCvOZ7-kKtk/can-high-intelligence-be-a-burden-rather-than-a-boon</link>
+<description>HughPickens.com writes David Robson has an interesting article at BBC on the relationship between high intelligence and happiness. "We tend to think of geniuses as being plagued by existential angst, frustration, and loneliness," writes Robson. Think of Virginia Woolf, Alan Turing, or Lisa Simpson &amp;ndash; lone stars, isolated even as they burn their brightest." As Ernest Hemingway wrote: "Happiness in intelligent people is the rarest thing I know." The first steps to studying the question were taken in 1926 when psychologist Lewis Terman decided to identify and study a group of gifted children. Terman selected 1,500 pupils with an IQ of 140 or more &amp;ndash; 80 of whom had IQs above 170. Together, they became known as the "Termites", and the highs and lows of their lives are still being studied to this day. "As you might expect, many of the Termites did achieve wealth and fame &amp;ndash; most notably Jess Oppenheimer, the writer of the classic 1950s sitcom I Love Lucy. Indeed, by the time his series aired on CBS, the Termites' average salary was twice that of the average white-collar job. But not all the group met Terman's expectations &amp;ndash; there were many who pursued more "humble" professions such as police officers, seafarers, and typists. For this reason, Terman concluded that "intellect and achievement are far from perfectly correlated". Nor did their smarts endow personal happiness. Over the course of their lives, levels of divorce, alcoholism and suicide were about the same as the national average."
+
+According to Robson, one possibility is that knowledge of your talents becomes something of a ball and chain. During the 1990s, the surviving Termites were asked to look back at the events in their 80-year lifespan. Rather than basking in their successes, many reported that they had been plagued by the sense that they had somehow failed to live up to their youthful expectations (PDF).&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Can+High+Intelligence+Be+a+Burden+Rather+Than+a+Boon%3F%3A+http%3A%2F%2Fbit.ly%2F1G4jEiL"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fscience.slashdot.org%2Fstory%2F15%2F04%2F18%2F1521222%2Fcan-high-intelligence-be-a-burden-rather-than-a-boon%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=http://science.slashdot.org/story/15/04/18/1521222/can-high-intelligence-be-a-burden-rather-than-a-boon?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;                                                                                                                                                                              
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://science.slashdot.org/story/15/04/18/1521222/can-high-intelligence-be-a-burden-rather-than-a-boon?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=7279815&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/aCvOZ7-kKtk" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>timothy</dc:creator>
+<dc:date>2015-04-18T15:22:00+00:00</dc:date>
+<dc:subject>math</dc:subject>
+<slash:department>how-can-I-still-go-on?</slash:department>
+<slash:section>science</slash:section>
+<slash:comments>235</slash:comments>
+<slash:hit_parade>235,233,136,101,32,13,8</slash:hit_parade>
+<feedburner:origLink>http://science.slashdot.org/story/15/04/18/1521222/can-high-intelligence-be-a-burden-rather-than-a-boon?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="http://hardware.slashdot.org/story/15/04/18/137245/kingston-hyperx-predator-ssd-takes-gumstick-m2-pcie-drives-to-14gbsec?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Kingston HyperX Predator SSD Takes Gumstick M.2 PCIe Drives To 1.4GB/sec</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/Y2A-fZBUZ2k/kingston-hyperx-predator-ssd-takes-gumstick-m2-pcie-drives-to-14gbsec</link>
+<description>MojoKid writes Kingston recently launched their HyperX Predator PCIe SSD that is targeted at performance-minded PC enthusiasts but is much less expensive than enterprise-class PCIe offerings that are currently in market. Kits are available in a couple of capacities and form factors at 240GB and 480GB. All of the drives adhere to the 80mm M.2 2280 "gumstick" form factor and have PCIe 2.0 x4 connections, but are sold both with and without a half-height, half-length adapter card, if you'd like to drop it into a standard PCI Express slot. At the heart of the Kingston HyperX Predator is Marvell's latest 88SS9293 controller. The Marvell 88SS9293 is paired to a gigabyte of DDR3 memory and Toshiba A19 Toggle NAND. The drives are rated for read speeds up to 1.4GB/s and writes of 1GB/s and 130 &amp;ndash; 160K random 4K IOPS. In the benchmarks, the 480GB model put up strong numbers. At roughly $1 per GiB, the HyperX Predator is about on par with Intel's faster SSD 750, but unlike Intel's new NVMe solution, the Kingston drive will work in all legacy platforms as well, not just Z97 and X99 boards with a compatible UEFI BIOS.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Kingston+HyperX+Predator+SSD+Takes+Gumstick+M.2+PCIe+Drives+To+1.4GB%2Fsec%3A+http%3A%2F%2Fbit.ly%2F1bd0jBL"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fhardware.slashdot.org%2Fstory%2F15%2F04%2F18%2F137245%2Fkingston-hyperx-predator-ssd-takes-gumstick-m2-pcie-drives-to-14gbsec%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=http://hardware.slashdot.org/story/15/04/18/137245/kingston-hyperx-predator-ssd-takes-gumstick-m2-pcie-drives-to-14gbsec?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;                                                                                                                                                                              
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://hardware.slashdot.org/story/15/04/18/137245/kingston-hyperx-predator-ssd-takes-gumstick-m2-pcie-drives-to-14gbsec?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=7279563&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/Y2A-fZBUZ2k" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>timothy</dc:creator>
+<dc:date>2015-04-18T14:22:00+00:00</dc:date>
+<dc:subject>storage</dc:subject>
+<slash:department>sure-hope-those-drives-appreciated-it</slash:department>
+<slash:section>hardware</slash:section>
+<slash:comments>44</slash:comments>
+<slash:hit_parade>44,44,36,32,8,6,2</slash:hit_parade>
+<feedburner:origLink>http://hardware.slashdot.org/story/15/04/18/137245/kingston-hyperx-predator-ssd-takes-gumstick-m2-pcie-drives-to-14gbsec?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="http://yro.slashdot.org/story/15/04/18/1252224/hacked-sony-emails-reveal-that-sony-had-pirated-books-about-hacking?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Hacked Sony Emails Reveal That Sony Had Pirated Books About Hacking</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/OgvCxrOlgok/hacked-sony-emails-reveal-that-sony-had-pirated-books-about-hacking</link>
+<description>An anonymous reader writes Sony has done a lot of aggressive anti-piracy work in their time, which makes it that much funnier that pirated ebooks were found on their servers from the 2014 hacks that just went on to WikiLeaks. Better yet, the pirated books are educational books about hacking called "Inside Cyber Warfare" and "Hacking the Next Generation" from O'Reilly publishers.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Hacked+Sony+Emails+Reveal+That+Sony+Had+Pirated+Books+About+Hacking%3A+http%3A%2F%2Fbit.ly%2F1OqbiEb"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fyro.slashdot.org%2Fstory%2F15%2F04%2F18%2F1252224%2Fhacked-sony-emails-reveal-that-sony-had-pirated-books-about-hacking%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=http://yro.slashdot.org/story/15/04/18/1252224/hacked-sony-emails-reveal-that-sony-had-pirated-books-about-hacking?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;                                                                                                                                                                              
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://yro.slashdot.org/story/15/04/18/1252224/hacked-sony-emails-reveal-that-sony-had-pirated-books-about-hacking?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=7279515&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/OgvCxrOlgok" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>timothy</dc:creator>
+<dc:date>2015-04-18T13:28:00+00:00</dc:date>
+<dc:subject>sony</dc:subject>
+<slash:department>elephant-books-all-the-way-down</slash:department>
+<slash:section>yro</slash:section>
+<slash:comments>49</slash:comments>
+<slash:hit_parade>49,47,28,19,6,0,0</slash:hit_parade>
+<feedburner:origLink>http://yro.slashdot.org/story/15/04/18/1252224/hacked-sony-emails-reveal-that-sony-had-pirated-books-about-hacking?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="http://yro.slashdot.org/story/15/04/18/0633204/twitter-moves-non-us-accounts-to-ireland-and-away-from-the-nsa?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Twitter Moves Non-US Accounts To Ireland, and Away From the NSA</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/sy9I7EVBowY/twitter-moves-non-us-accounts-to-ireland-and-away-from-the-nsa</link>
+<description>Mark Wilson writes Twitter has updated its privacy policy, creating a two-lane service that treats U.S. and non-U.S. users differently. If you live in the U.S., your account is controlled by San Francisco-based Twitter Inc, but if you're elsewhere in the world (anywhere else) it's handled by Twitter International Company in Dublin, Ireland. The changes also affect Periscope. What's the significance of this? Twitter Inc is governed by U.S. law; it is obliged to comply with NSA-driven court requests for data. Data stored in Ireland is not subject to the same obligation. Twitter is not alone in using Dublin as a base for non-U.S. operations; Facebook is another company that has adopted the same tactic. The move could also have implications for how advertising is handled in the future.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Twitter+Moves+Non-US+Accounts+To+Ireland%2C+and+Away+From+the+NSA%3A+http%3A%2F%2Fbit.ly%2F1CYU762"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fyro.slashdot.org%2Fstory%2F15%2F04%2F18%2F0633204%2Ftwitter-moves-non-us-accounts-to-ireland-and-away-from-the-nsa%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=http://yro.slashdot.org/story/15/04/18/0633204/twitter-moves-non-us-accounts-to-ireland-and-away-from-the-nsa?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;                                                                                                                                                                              
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://yro.slashdot.org/story/15/04/18/0633204/twitter-moves-non-us-accounts-to-ireland-and-away-from-the-nsa?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=7277911&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/sy9I7EVBowY" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>timothy</dc:creator>
+<dc:date>2015-04-18T12:31:00+00:00</dc:date>
+<dc:subject>business</dc:subject>
+<slash:department>be-right-over-here-guys</slash:department>
+<slash:section>yro</slash:section>
+<slash:comments>110</slash:comments>
+<slash:hit_parade>110,108,68,56,12,9,8</slash:hit_parade>
+<feedburner:origLink>http://yro.slashdot.org/story/15/04/18/0633204/twitter-moves-non-us-accounts-to-ireland-and-away-from-the-nsa?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="http://tech.slashdot.org/story/15/04/18/0219235/google-ready-to-unleash-thousands-of-balloons-in-project-loon?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Google Ready To Unleash Thousands of Balloons In Project Loon</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/_cGeNdMpJ2w/google-ready-to-unleash-thousands-of-balloons-in-project-loon</link>
+<description>jfruh writes Google has figured out how to produce an Internet-broadcast balloon in a few hours, and is on the verge of unleashing Project Loon onto the world. The project, which will work with ISPs to beam LTE cellular signals to remote regions that don't have Internet access, will be working with local ISPs rather than selling broadband directly to customers.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Google+Ready+To+Unleash+Thousands+of+Balloons+In+Project+Loon%3A+http%3A%2F%2Fbit.ly%2F1OpRRvh"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Ftech.slashdot.org%2Fstory%2F15%2F04%2F18%2F0219235%2Fgoogle-ready-to-unleash-thousands-of-balloons-in-project-loon%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=http://tech.slashdot.org/story/15/04/18/0219235/google-ready-to-unleash-thousands-of-balloons-in-project-loon?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;                                                                                                                                                                              
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://tech.slashdot.org/story/15/04/18/0219235/google-ready-to-unleash-thousands-of-balloons-in-project-loon?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=7277183&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/_cGeNdMpJ2w" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>timothy</dc:creator>
+<dc:date>2015-04-18T11:18:00+00:00</dc:date>
+<dc:subject>google</dc:subject>
+<slash:department>buncha-crazies</slash:department>
+<slash:section>technology</slash:section>
+<slash:comments>41</slash:comments>
+<slash:hit_parade>41,41,29,23,6,5,1</slash:hit_parade>
+<feedburner:origLink>http://tech.slashdot.org/story/15/04/18/0219235/google-ready-to-unleash-thousands-of-balloons-in-project-loon?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="http://science.slashdot.org/story/15/04/18/0224250/the-origin-of-the-first-light-in-the-universe?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>The Origin of the First Light In the Universe</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/8aa8xnlPl5o/the-origin-of-the-first-light-in-the-universe</link>
+<description>StartsWithABang writes Before there were planets, galaxies, or even stars in the Universe, there really was light. We see that light, left over today, in the form of the Cosmic Microwave Background, or the remnant glow from the Big Bang. But these photons outnumber the matter in our Universe by more than a-billion-to-one, and are the most numerous thing around. So where did they first come from? Science has the answer.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=The+Origin+of+the+First+Light+In+the+Universe%3A+http%3A%2F%2Fbit.ly%2F1HCR0XS"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fscience.slashdot.org%2Fstory%2F15%2F04%2F18%2F0224250%2Fthe-origin-of-the-first-light-in-the-universe%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=http://science.slashdot.org/story/15/04/18/0224250/the-origin-of-the-first-light-in-the-universe?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;                                                                                                                                                                              
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://science.slashdot.org/story/15/04/18/0224250/the-origin-of-the-first-light-in-the-universe?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=7277195&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/8aa8xnlPl5o" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>timothy</dc:creator>
+<dc:date>2015-04-18T08:31:00+00:00</dc:date>
+<dc:subject>space</dc:subject>
+<slash:department>was-just-born-there</slash:department>
+<slash:section>science</slash:section>
+<slash:comments>106</slash:comments>
+<slash:hit_parade>106,94,57,44,15,6,3</slash:hit_parade>
+<feedburner:origLink>http://science.slashdot.org/story/15/04/18/0224250/the-origin-of-the-first-light-in-the-universe?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<item rdf:about="http://hardware.slashdot.org/story/15/04/18/0217200/google-adds-handwriting-input-to-android?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed">
+<title>Google Adds Handwriting Input To Android</title>
+<link>http://rss.slashdot.org/~r/Slashdot/slashdot/~3/7RMKOZmuVEI/google-adds-handwriting-input-to-android</link>
+<description>BarbaraHudson writes: The Reg is reporting on the release of Google Handwriting Input for Android smartphones and tablets: "The Chocolate Factory's research arm says handwriting recognition is needed because touchscreen keyboards remain modestly effective and while 'Voice input is an option, but there are situations where it is not feasible, such as in a noisy environment or during a meeting." The Google Research Blog notes that it allows recognition both on-device and in the cloud (by tapping on the cloud icon) in any Android app.
+ It works as advertised on my smartphone, so now I can type, speak, or scribble my searches, texts, etc.&lt;p&gt;&lt;div class="share_submission" style="position:relative;"&gt;
+&lt;a class="slashpop" href="http://twitter.com/home?status=Google+Adds+Handwriting+Input+To+Android%3A+http%3A%2F%2Fbit.ly%2F1JdyvYr"&gt;&lt;img src="http://a.fsdn.com/sd/twitter_icon_large.png"&gt;&lt;/a&gt;
+&lt;a class="slashpop" href="http://www.facebook.com/sharer.php?u=http%3A%2F%2Fhardware.slashdot.org%2Fstory%2F15%2F04%2F18%2F0217200%2Fgoogle-adds-handwriting-input-to-android%3Futm_source%3Dslashdot%26utm_medium%3Dfacebook"&gt;&lt;img src="http://a.fsdn.com/sd/facebook_icon_large.png"&gt;&lt;/a&gt;
+
+&lt;a class="nobg" href="http://plus.google.com/share?url=http://hardware.slashdot.org/story/15/04/18/0217200/google-adds-handwriting-input-to-android?utm_source=slashdot&amp;amp;utm_medium=googleplus" onclick="javascript:window.open(this.href,'', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"&gt;&lt;img src="http://www.gstatic.com/images/icons/gplus-16.png" alt="Share on Google+"/&gt;&lt;/a&gt;                                                                                                                                                                              
+
+
+
+&lt;/div&gt;&lt;/p&gt;&lt;p&gt;&lt;a href="http://hardware.slashdot.org/story/15/04/18/0217200/google-adds-handwriting-input-to-android?utm_source=rss1.0moreanon&amp;amp;utm_medium=feed"&gt;Read more of this story&lt;/a&gt; at Slashdot.&lt;/p&gt;&lt;iframe src="http://slashdot.org/slashdot-it.pl?op=discuss&amp;amp;id=7277175&amp;amp;smallembed=1" style="height: 300px; width: 100%; border: none;"&gt;&lt;/iframe&gt;&lt;img src="http://feeds.feedburner.com/~r/Slashdot/slashdot/~4/7RMKOZmuVEI" height="1" width="1" alt=""/&gt;</description>
+<dc:creator>timothy</dc:creator>
+<dc:date>2015-04-18T05:38:00+00:00</dc:date>
+<dc:subject>android</dc:subject>
+<slash:department>dreaming-of-sheep-is-next</slash:department>
+<slash:section>hardware</slash:section>
+<slash:comments>99</slash:comments>
+<slash:hit_parade>99,97,64,55,13,2,0</slash:hit_parade>
+<feedburner:origLink>http://hardware.slashdot.org/story/15/04/18/0217200/google-adds-handwriting-input-to-android?utm_source=rss1.0mainlinkanon&amp;utm_medium=feed</feedburner:origLink></item>
+<textinput rdf:about="http://slashdot.org/search.pl">
+<title>Search Slashdot</title>
+<description>Search Slashdot stories</description>
+<name>query</name>
+<link>http://slashdot.org/search.pl</link>
+</textinput>
+</rdf:RDF>
