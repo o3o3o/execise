@@ -117,8 +117,9 @@ class Player
         elsif warrior.feel(@direct).captive? 
             warrior.rescue!(@direct)
         elsif warrior.feel(@direct).wall? 
-            change_direction! 
-            warrior.walk!(@direct)
+            warrior.pivot!
+            #change_direction! 
+            #warrior.walk!(@direct)
         #elsif warrior.feel(@direct).stairs?  # feel enemy
         #    warrior.walk!(@direct)
         else
