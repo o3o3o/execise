@@ -20,6 +20,7 @@ end
 class Player
     NORMAL=0
     ATTACKED_BY_ARCHER=1
+    CHANGE_DIRECTION=2
 
     def initialize(health_full=20, damage_p=5, recover_ration=0.1)
         @health_full  = health_full
@@ -29,7 +30,10 @@ class Player
         @archer = Archer.new(7,3)
         @health_cur = @health_full
         @direct = :forward
-        @status = NORMAL
+        @cur_attacked_cnt = 0
+        @need_health_before_fight= @archer.damage_p  * @archer.attack_length #TODO: update?
+    end
+    def set_need_health
         ### We should take a rest until the health is getting up to @need_health
         # w:(Warrior)  wdm:(Warrior's damage point)
         # s:(Slundge) sdm: (Slundge's damage point)
@@ -43,23 +47,23 @@ class Player
         end
     end
 
+
     # Check if we are hurt by enemies last time.
-    def bleeding?(warrior)
+    def bleeding?(warrior)# attacked by archer?
         #p "#{warrior.health}  vs #{@health_cur}"
         if warrior.health < @health_cur
-            @status=ATTACKED_BY_ARCHER
+            # We need to raise the value of @need_health when it be  ATTACKED_BY_ARCHER
+            @need_health = @health_full
             return true
+        else
+            set_need_health if @need_health != @health_full
+            return false
         end
     end
 
     def have_a_rest?(warrior)
-        # We need to rase the number @need_health when it be  ATTACKED_BY_ARCHER
-        @need_health = @health_full if @status == ATTACKED_BY_ARCHER
         if !bleeding?(warrior) && (warrior.health < @need_health)
             true
-        else
-            @status=NORMAL
-            false
         end
     end
 
@@ -70,26 +74,43 @@ class Player
         else
             @direct = :forward
         end
+        @status=CHANGE_DIRECTION
+    end
+
+    def change_direction_lasttime?
+         @cur_attacked_cnt == 1 || @status!=CHANGE_DIRECTION
     end
 
     #TODO: How to predict the @health_before_attack with distance of enemies?
     def change_direction?(warrior)
-        @need_health_before_fight= @archer.damage_p  * @archer.attack_length #TODO: update?
-        if  bleeding?(warrior) && (warrior.health < @need_health_before_fight)
+        #TODO:update @need_health_before_fight
+        p "=======change_direction?=====need_health_before_fight: #{@need_health_before_fight}"
+        if  bleeding?(warrior) && (warrior.health < @need_health_before_fight) && change_direction_lasttime?
             return true
         end
     end
 
     def play_turn(warrior)
 
+        if bleeding?(warrior)
+            @cur_attacked_cnt += 1
+            p "SAY:I am being attacked....#{@cur_attacked_cnt} times!"
+        else
+            @cur_attacked_cnt = 0 
+        end
+
         if warrior.feel(@direct).empty?  #empty
+            p "SAY: feel empty..."
             if have_a_rest?(warrior)
-                #p "oooooooooooo^_^ooooooooo REST......"
+                p "SAY:oooooooooooo^_^ooooooooo REST......"
                 warrior.rest!
+                @health_cur += (@health_full * @ratio)
             else
                 if change_direction?(warrior) 
-                    p "A!!!! GOT HURT(#{warrior.health}<#{@need_health_before_fight}), WE NEED BACKWARD!!"
+                    p "SAY!!!! GOT HURT(#{warrior.health}<#{@need_health_before_fight}), WE NEED BACKWARD!!"
                     change_direction!
+                else
+                    @status = NORMAL
                 end
                 warrior.walk!(@direct)
             end
@@ -98,12 +119,13 @@ class Player
         elsif warrior.feel(@direct).wall? 
             change_direction! 
             warrior.walk!(@direct)
-        elsif warrior.feel(@direct).stairs? 
-            warrior.walk!(@direct)
+        #elsif warrior.feel(@direct).stairs?  # feel enemy
+        #    warrior.walk!(@direct)
         else
             warrior.attack!(@direct)
-            #p ">>>>>>>>>>>>>>Kill it!!"
+            p ">>>>>>>>>>>>>>Kill it!!"
         end
+        # bleeding check helper
         @health_cur = warrior.health
     end
 
