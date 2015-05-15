@@ -84,10 +84,24 @@ class Player
     #TODO: How to predict the @health_before_attack with distance of enemies?
     def change_direction?(warrior)
         #TODO:update @need_health_before_fight
-        p "=======change_direction?=====need_health_before_fight: #{@need_health_before_fight}"
+        #p "=======change_direction?=====need_health_before_fight: #{@need_health_before_fight}"
         if  bleeding?(warrior) && (warrior.health < @need_health_before_fight) && change_direction_lasttime?
             return true
         end
+    end
+
+    def check_enemy?(warrior)
+        user=warrior.look
+        i = 0
+        user.each do |u|
+            p "OoO)SAW: #{u}"
+            i+=1
+            if u <=> "Wizard" or u <=> "Slundge"
+                p "#######Oh I saw  #{u} on the #{i} space"
+                return true
+            end
+        end
+        return false
     end
 
     def play_turn(warrior)
@@ -112,7 +126,12 @@ class Player
                 else
                     @status = NORMAL
                 end
-                warrior.walk!(@direct)
+
+                if check_enemy?(warrior)
+                    warrior.shoot!(@direct)
+                else
+                    warrior.walk!(@direct)
+                end
             end
         elsif warrior.feel(@direct).captive? 
             warrior.rescue!(@direct)
@@ -123,8 +142,8 @@ class Player
         #elsif warrior.feel(@direct).stairs?  # feel enemy
         #    warrior.walk!(@direct)
         else
-            warrior.attack!(@direct)
             p ">>>>>>>>>>>>>>Kill it!!"
+            warrior.attack!(@direct)
         end
         # bleeding check helper
         @health_cur = warrior.health
