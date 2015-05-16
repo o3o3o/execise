@@ -94,10 +94,11 @@ class Player
         user=warrior.look
         i = 0
         user.each do |u|
-            p "OoO)SAW: #{u}"
+            p "OoO)SAW:#{u.class} #{u}"
+            type="#{u}" # convert "CALSS" to string
             i+=1
-            if u <=> "Wizard" or u <=> "Slundge"
-                p "#######Oh I saw  #{u} on the #{i} space"
+            if (type  == "Wizard" or type  == "Slundge" ) and i == 2
+                p "#######Oh I saw  #{type} on the #{i} space"
                 return true
             end
         end
