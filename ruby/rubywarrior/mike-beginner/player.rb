@@ -124,7 +124,7 @@ class Player
         user=warrior.look(@direct)
         i = 0
         user.each do |u|
-            #p "OoO)SAW:#{u.class} #{u}"
+            p "OoO)SAW:#{u.class} #{u}"
             type="#{u}" # convert "CALSS" to string
             i+=1
             if (type  == "Wizard" or type  =~ /Sludge/) and i == 2
@@ -132,7 +132,7 @@ class Player
                 return true
             end
             if type == "Archer" and i == 2 #??
-                warrior.shoot!(@direct) if action?
+                do!{warrior.shoot!}
                 @action="DONE"
                 return true
             end
@@ -144,21 +144,14 @@ class Player
         @action != "DONE"
     end
 
-=begin
-    def do!(action) # lisp macro?
-        if done?
-            case action
-            when "shoot" @warrior.shoot(@direct)
-            when "walk" @warrior.walk(@direct)
-            when "attack" @warrior.attack(@direct)
-            else 
-                p "NOT FOUND #{action}"
-            end
-            @warrior.action(@direct)
+#=begin
+    def do!(&action) # lisp macro?
+        if action?
+            action.call(@direct)
             @action = "DONE"
         end
     end
-=end
+#=end
 
     def play_turn(warrior)
 
@@ -174,7 +167,7 @@ class Player
             p "SAY: feel empty..."
             if have_a_rest?(warrior)
                 p "SAY:oooooooooooo^_^ooooooooo REST......"
-                warrior.rest!
+                do!{warrior.rest!}
                 @health_cur += (@health_full * @ratio)
             else
                 if change_direction?(warrior)
@@ -187,29 +180,28 @@ class Player
                 #May We are being attacking by archer in backward
                 if bleeding?(warrior) && @cur_attacked_cnt > 1  && !find_archer?(warrior)
                     change_direction! 
-                    warrior.shoot!(@direct) if action?
-                    @action = "DONE"
+                    do!{warrior.shoot!}
                     change_direction!
                 end
 
                 if shoot?(warrior)
-                    warrior.shoot!(@direct) if action?
+                    do!{warrior.shoot!}
                 else
-                    warrior.walk!(@direct)  if action?
+                    do!{warrior.walk!}
                 end
 
             end
         elsif warrior.feel(@direct).captive? 
             warrior.rescue!(@direct)
         elsif warrior.feel(@direct).wall? 
-            warrior.pivot!
+            do!{warrior.pivot!}
             #change_direction! 
             #warrior.walk!(@direct)
         #elsif warrior.feel(@direct).stairs?  # feel enemy
         #    warrior.walk!(@direct)
         else
             p ">>>>>>>>>>>>>>Kill it!!"
-            warrior.attack!(@direct)
+            do!{warrior.attack!}
         end
         # bleeding check helper
         @health_cur = warrior.health
